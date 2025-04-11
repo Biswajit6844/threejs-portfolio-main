@@ -24,45 +24,45 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Gemma Ker-Bridges',
+    position: 'student  Experience Officer',
+    img: 'assets/review4.png',
     review:
-      'Working with Biswajit was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
+      'During our collaboration with Rotork, Biswajit showcased exceptional leadership in managing the development of \textit{Halyon}, an educational card game designed to address knowledge gaps in school settings. He effectively navigated the challenge of aligning technical feasibility with educational goals, leading cross-functional efforts in marketing, design, and budgeting. His ability to synthesize stakeholder feedback and turn abstract ideas into a tangible product was critical to the project success.',
+    },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Grace Augustine ',
+    position: 'Associate Professor in Business & Society,University of Bath',
+    img: 'assets/review1.png',
     review:
-      'Biswajit’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Biswajit has a remarkable ability to break down complex global challenges into actionable insights, demonstrating both strategic depth and analytical precision. His interdisciplinary approach, blending AI, management, and data analytics, positions him as a problem-solver for real-world impact. I have full confidence in his potential to lead transformative solutions at scale.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
+    name: 'Dr. Pinku Ranjan',
+    position: 'Assistant Professor, ABV- IIITM Gwalior ',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Biswajit. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
+      'Biswajit excels in AI, full-stack development, and data analytics, showing mastery in technologies like React, Node.js, and Machine Learning.'
+    },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Mahendra Shukla',
+    position: ' Associate Editor, IEEE Sensors Letters',
+    img: 'assets/review2.png',
     review:
-      'Biswajit was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'His strong leadership, problem-solving, and project management skills make him an invaluable asset in both technical and interdisciplinary environments.',
   },
 ];
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Prepwise – AI Mock Interview Platform Live Demo 2',
+    desc: 'Prepwise is a website project designed to help you learn integrating AI models with your apps. The platform offers a sleek and modern experience for job interview preparation.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Built with Next.js for the user interface and backend logic, Firebase for authentication and data storage, styled with TailwindCSS and using Vapi voice agents.',
+    href: 'https://github.com/Biswajit6844/ai_mock-interviews',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -87,19 +87,15 @@ export const myProjects = [
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Subscription Tracker API',
+    desc: 'A production-ready Subscription Management System API that handles real users, real money, and real business logic.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Authenticate users using JWTs, connect a database, create models and schemas, and integrate it with ORMs. Structure the architecture of your API to ensure scalability and seamless communication with the frontend.',
+    href: 'https://github.com/Biswajit6844/subscription--tracker-api',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -126,17 +122,17 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Api',
+        path: '/assets/api.png',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Zentry – Awwwards Inspired Web App ',
+    desc: ' a  inspired by Zentry is a visually captivating website , featuring scroll-triggered animations, geometric transitions, and engaging video storytelling',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'It  showcases a luxurious, modern feel, focusing on engaging UI/UX and smooth responsiveness, capturing the essence of what makes an Awwwards winner.',
+    href: 'https://github.com/Biswajit6844/award-winning-website',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -168,14 +164,19 @@ export const myProjects = [
         name: 'Framer Motion',
         path: '/assets/framer.png',
       },
+      {
+        id: 5,
+        name: 'GSAP',
+        path: '/assets/gsap.png',
+      },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'JeetDrive – Storage Management App',
+    desc: 'A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. ',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management.',
+    href: 'https://github.com/Biswajit6844/uploader',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -208,11 +209,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Iphone 15 Pro Website Clone',
+    desc: 'This is a clone of Apple IPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      'RecreateD the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.',
+    href: 'https://github.com/Biswajit6844/iphone',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -241,6 +242,11 @@ export const myProjects = [
         id: 4,
         name: 'Framer Motion',
         path: '/assets/framer.png',
+      },
+      {
+        id: 5,
+        name: 'GSAP',
+        path: '/assets/gsap.png',
       },
     ],
   },
@@ -292,7 +298,7 @@ export const workExperiences = [
     duration: 'Feb 2023 – June 2023',
     title: "I  worked on developing the Built ATG.World’s course discovery page using React, improving user engagement and integrated REST APIs for dynamic course listings and real-time updates.",
     icon: '/assets/atg.jpg',
-    animation: 'salute',
+    animation: 'clapping',
   },
   {
     id: 5,
@@ -301,7 +307,7 @@ export const workExperiences = [
       duration: 'Feb 2022 – May 2022',
       title: "I  worked on developing the  backend features with Node.js and REST APIs for form handling and dynamic content and improved SEO, page speed, and branding ,through close collaboration with the design team.",
       icon: '/assets/ferm.jpg',
-      animation: 'salute',
+      animation: 'victory',
     },
     {
     id: 6,
@@ -310,6 +316,6 @@ export const workExperiences = [
     duration: 'Jan 2020 - June 2021',
     title: "I implemented React Redux for efficient state management, ensuring smooth data flow and improved performance across dynamic screens and also configured and integrated Firebase services, including real-time database and cloud messaging to support scalable backend functionality.",
     icon: '/assets/majhi.jpg',
-    animation: 'salute',
+    animation: 'clapping',
   },
 ];

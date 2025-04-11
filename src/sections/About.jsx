@@ -25,8 +25,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Biswajit Sethy</p>
               <p className="grid-subtext">
-                With 4+ years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              I am an innovative and adaptable professional with over 4+ years of experience in project management, AI research,
+and digital marketing.I have a proven ability to lead end-to-end product development, execute high-impact marketing strategies, and conduct advanced research in intelligent systems.
               </p>
             </div>
           </div>
