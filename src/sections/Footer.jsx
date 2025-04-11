@@ -8,15 +8,30 @@ const Footer = () => {
       </div>
 
       <div className="flex gap-3">
-        <div className="social-icon">
+        <a
+          href="https://github.com/Biswajit6844"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon"
+        >
           <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
+        </a>
+        <a
+          href="https://x.com/BiswajitSe89251"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon"
+        >
           <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
+        </a>
+        <a
+          href="https://instagram.com/sethy2892"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon"
+        >
           <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-        </div>
+        </a>
       </div>
 
       <p className="text-white-500">© 2024 Biswajit Sethy. All rights reserved.</p>
